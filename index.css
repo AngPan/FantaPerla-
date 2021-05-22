@@ -1,0 +1,125 @@
+@font-face {
+  font-family: "fp-font";
+  src: url("fonts/didactgothic-regular-webfont.woff") format("woff");
+}
+
+:root {
+  --vio: #662483;
+  --bg-vio: #6e268c;
+  --ros: #de69a6;
+  --cel: #2f90a9;
+  --bg-cel: #27778b;
+  --oro: #a47f28;
+  --dark-oro: #755b1e;
+  --ner: rgb(46, 46, 46);
+}
+
+.bg-vio {
+  background-color: var(--bg-vio);
+}
+.bg-cel {
+  background-color: var(--bg-cel);
+}
+.bg-oro {
+  background-color: var(--oro);
+}
+.color-cel {
+  color: var(--cel);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.title-bar {
+  background-color: var(--cel);
+  border-bottom: var(--oro) 0.2rem solid;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+}
+
+.title-text {
+  height: 35px;
+  z-index: 0;
+}
+
+.title-logo {
+  height: 50px;
+}
+
+.title-container {
+  justify-content: center !important;
+}
+
+.footer-bar {
+  border-top: var(--oro) 0.2rem solid;
+  background-color: var(--ner);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar-item {
+  color: white;
+  text-align: center;
+}
+
+.pagine {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+.pagina-item {
+  display: flex;
+  text-align: center;
+  flex: 0 0 100vw;
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-align: center;
+  padding: 0px 1rem;
+}
+
+/* PAGINE */
+
+.page-title {
+  font-size: 2rem;
+  color: white;
+  padding-top: 5rem;
+  font-family: "fp-font";
+  font-weight: bold;
+  font-style: normal;
+}
+
+.page-subtitle {
+  color: var(--ros);
+  font-size: 1.5rem;
+  font-family: "fp-font";
+  font-style: normal;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem auto;
+}
+
+.star-bullet {
+  color: white;
+}
+
+.page-rule {
+  color: white;
+  text-align: left;
+  font-size: 1.3rem;
+  font-family: "fp-font";
+  font-style: normal;
+  font-weight: normal;
+  padding-left: 0.3rem;
+}
+
+.page-rule-link {
+  text-decoration: none;
+  color: var(--cel);
+}
