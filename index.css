@@ -33,6 +33,7 @@ html {
 
 body {
   overflow: hidden;
+}
 
 .title-bar {
   background-color: var(--cel);
