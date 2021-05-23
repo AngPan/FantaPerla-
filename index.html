@@ -41,10 +41,8 @@
 <title>Lega FantaPerla</title>
 
 </head>
-
-<body class="bg-vio">
-
-    <nav class="navbar title-bar float-center">
+<header>
+     <nav class="navbar title-bar float-center">
         <div class="container title-container px-auto">
             <row>
                 <img class="title-text" src="img/logo/text-fanta-colored.png" alt="">
@@ -53,31 +51,43 @@
             </row>
         </div>
     </nav>
+</header>
 
+<body class="bg-vio">
 
-
-
-
+   
+<!-- 
     <div class="pagine">
-        <div class="pagina-item bg-vio" id="includeCampionato">
-
-
-        </div>
-
-
-        <div class="pagina-item bg-cel" id="includeCoppa">
-
-        </div>
-        
-        
+        <div class="pagina-item bg-vio" id="includeCampionato"></div>
+        <div class="pagina-item bg-cel" id="includeCoppa"></div>
         <div class="pagina-item bg-vio" id="includeMercati">Item 3</div>
-        
-        
         <div class="pagina-item bg-cel" id="includeSquadre">Item 4</div>
-        
-        
         <div class="pagina-item bg-oro" id="includeAlbo">Item 5</div>
-    </div>
+    </div> -->
+
+    <main class="mb-0 pb-0">
+    
+        <article id="campionato" class="bg-vio">
+            <script>replace(document.currentScript, 'pages/regCampionato.html')</script>
+        </article>
+    
+        <article id="coppa" class=" bg-cel">
+            <script>replace(document.currentScript, 'pages/regCoppa.html')</script>
+        </article>
+    
+        <article id="mercato" class="bg-vio">
+            <script>replace(document.currentScript, 'pages/regMercato.html')</script>
+        </article>
+    
+        <article id="teams" class=" bg-cel">
+            <script>replace(document.currentScript, 'pages/teams.html')</script>
+        </article>
+    
+        <article id="albo" class="page-padding bg-oro">
+            <script>replace(document.currentScript, 'pages/alboDoro.html')</script>
+        </article>
+    
+    </main>
 
 
 
