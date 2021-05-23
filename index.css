@@ -63,13 +63,6 @@ main>article {
     scroll-snap-stop: always;
 } */
 
-html,
-body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-}
-
 body {
     display: grid;
     grid-template-columns: minmax(min-content, 1024px);
