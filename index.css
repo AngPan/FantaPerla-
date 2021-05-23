@@ -99,7 +99,7 @@ article {
     overflow-y: auto;
     --padding-size: 1em;
     padding: var(--padding-size);
-    margin-top: 5rem;
+    margin-top: 4rem;
     height: fit-content;
 }
 
