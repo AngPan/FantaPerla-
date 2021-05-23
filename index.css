@@ -99,6 +99,8 @@ article {
     overflow-y: auto;
     --padding-size: 1em;
     padding: var(--padding-size);
+    margin-top: 5rem;
+    height: fit-content;
 }
 
 
@@ -164,7 +166,6 @@ article {
 .page-title {
     font-size: 2rem;
     color: white;
-    padding-top: 5rem;
     font-family: "fp-font";
     font-weight: bold;
     font-style: normal;
