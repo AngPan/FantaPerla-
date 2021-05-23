@@ -95,7 +95,6 @@ main>article {
 }
 
 article {
-    height: 100%;
     overflow-y: auto;
     --padding-size: 1em;
     padding: var(--padding-size);
