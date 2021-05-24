@@ -164,6 +164,10 @@ article {
 
 /* PAGINE */
 
+.page-settings {
+    padding-top: 4rem;
+}
+
 .page-title {
     font-size: 2rem;
     color: white;
