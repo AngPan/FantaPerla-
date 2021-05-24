@@ -40,6 +40,9 @@ body {
 }
 
 
+/* FOOTER */
+
+
 /* body {
     display: grid;
     grid-template-columns: 1fr;
@@ -68,9 +71,6 @@ body {
 }
 
 body {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: min-content min-content 1fr;
     display: grid;
     grid-template-columns: minmax(min-content, 1024px);
     justify-content: center;
