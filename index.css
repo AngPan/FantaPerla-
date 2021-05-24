@@ -70,6 +70,10 @@ body {
     margin: 0;
 }
 
+html {
+    overflow: scroll;
+}
+
 body {
     display: grid;
     grid-template-columns: minmax(min-content, 1024px);
