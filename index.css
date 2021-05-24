@@ -99,6 +99,7 @@ article {
     overflow-y: auto;
     --padding-size: 1em;
     padding: var(--padding-size);
+    position: fixed;
 }
 
 
@@ -162,7 +163,7 @@ article {
 /* PAGINE */
 
 .page-settings {
-    padding-top: 4rem;
+    padding: 4rem auto;
 }
 
 .page-title {
