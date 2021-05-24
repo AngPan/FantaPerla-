@@ -156,6 +156,7 @@ article {
 }
 
 .page-title {
+    justify-content: center;
     font-size: 2rem;
     color: white;
     font-family: "fp-font";
