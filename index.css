@@ -72,6 +72,7 @@ body {
 
 html {
     overflow: scroll;
+    width: 110%;
 }
 
 body {
