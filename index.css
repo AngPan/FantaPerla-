@@ -30,15 +30,6 @@
     color: var(--cel);
 }
 
-html,
-body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    overflow: hidden;
-    scroll-behavior: smooth;
-}
-
 
 /* FOOTER */
 
@@ -68,6 +59,12 @@ body {
     width: 100%;
     height: 100%;
     margin: 0;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-snap-type: y mandatory;
 }
 
 body {
