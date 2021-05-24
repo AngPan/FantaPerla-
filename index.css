@@ -31,9 +31,6 @@
 }
 
 
-/* FOOTER */
-
-
 /* body {
     display: grid;
     grid-template-columns: 1fr;
@@ -104,9 +101,6 @@ article {
     --padding-size: 1em;
     padding: var(--padding-size);
 }
-
-
-/* -- */
 
 .title-bar {
     background-color: var(--cel);
