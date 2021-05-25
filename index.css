@@ -134,6 +134,8 @@ article {
 .page-settings {
     padding-top: 5rem;
     padding-bottom: 4rem;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .page-title {
@@ -173,6 +175,64 @@ article {
 .page-rule-link {
     text-decoration: none;
     color: var(--cel);
+}
+
+.row-squadra {
+    background-color: var(--bg-cel);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: .5rem 0;
+}
+
+.col-squadra {
+    max-width: 7rem;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.img-squadra {
+    height: 6rem;
+}
+
+.testo-squadra {
+    color: white;
+    font-size: 1.3rem;
+    align-self: center;
+    font-weight: 400;
+}
+
+
+/* -- */
+
+
+/* FOOTER */
+
+.material-icons.md-48 {
+    font-size: 48px;
+}
+
+.footer-capitolo-logo {
+    padding: 0px !important;
+    color: var(--cel);
+    text-decoration: none
+}
+
+.footer-campionato-logo {
+    display: inline-block;
+    width: 48px;
+    height: 46px;
+    background-size: cover;
+    background-image: url("img/logo/ball-cyan.svg");
+    filter: invert(49%) sepia(26%) saturate(1091%) hue-rotate(145deg) brightness(94%) contrast(87%);
+}
+
+.footer-squadre-logo {
+    display: inline-block;
+    width: 48px;
+    height: 46px;
+    background-size: cover;
+    background-image: url("img/teams/teams-shirt.png");
+    filter: invert(49%) sepia(26%) saturate(1091%) hue-rotate(145deg) brightness(94%) contrast(87%);
 }
 
 
