@@ -175,5 +175,9 @@ article {
     color: var(--cel);
 }
 
+.page-rule-link-vio {
+    text-decoration: none;
+    color: var(--vio);
+}
 
 /* -- */
