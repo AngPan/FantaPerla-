@@ -207,12 +207,26 @@ article {
     margin-top: 0.2rem;
 }
 
+.testo-squadra.hall {
+    font-weight: 500 !important;
+}
+
 .card-squadra {
     padding: 1rem;
     border-radius: 1rem;
     background-color: var(--ner);
     margin: 0.2rem;
     border: 0.2rem solid var(--oro);
+}
+
+
+/* -- */
+
+
+/* HALL OF FAME */
+
+.hall-of-fame-logo {
+    height: 10rem;
 }
 
 
