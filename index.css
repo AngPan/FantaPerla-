@@ -177,12 +177,11 @@ article {
     color: var(--cel);
 }
 
-.row-squadra {
-    background-color: var(--bg-cel);
-    border-radius: 1rem;
-    padding: 1rem;
-    margin: .5rem 0;
-}
+
+/* -- */
+
+
+/* SQUADRE */
 
 .col-squadra {
     max-width: 7rem;
@@ -196,9 +195,18 @@ article {
 
 .testo-squadra {
     color: white;
-    font-size: 1.3rem;
+    font-size: 1rem;
     align-self: center;
     font-weight: 400;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-squadra {
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: var(--ner);
+    margin: 0.2rem;
 }
 
 
