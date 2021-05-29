@@ -157,6 +157,10 @@ article {
     margin: 1rem auto;
 }
 
+.spazio-sottotitolo {
+    margin: 1rem;
+}
+
 .star-bullet {
     color: white;
 }
@@ -200,6 +204,7 @@ article {
     font-weight: 400;
     justify-content: center;
     text-align: center;
+    margin-top: 0.2rem;
 }
 
 .card-squadra {
@@ -207,6 +212,7 @@ article {
     border-radius: 1rem;
     background-color: var(--ner);
     margin: 0.2rem;
+    border: 0.2rem solid var(--oro);
 }
 
 
