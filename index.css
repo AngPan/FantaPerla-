@@ -157,8 +157,13 @@ article {
     margin: 1rem auto;
 }
 
+.page-subtitle.hall {
+    color: white;
+    font-weight: bold;
+}
+
 .spazio-sottotitolo {
-    margin: 1rem;
+    height: 3rem;
 }
 
 .star-bullet {
@@ -234,9 +239,16 @@ article {
     height: 10rem;
 }
 
-.legenda-text {
+.doblete {
+    position: absolute;
+    top: 0px;
+    right: 50px;
     color: white;
-    font-weight: lighter;
+    border: white;
+    border-style: solid;
+    border-radius: 20px;
+    font-size: 25px;
+    background-color: var(--oro);
 }
 
 
@@ -244,14 +256,31 @@ article {
 
 .info-box {
     background-color: var(--ner);
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
+    border-radius: 2rem;
 }
 
 .info-logo {
     padding: 0px !important;
     color: white;
     text-decoration: none
+}
+
+.info-text {
+    color: white;
+    padding: 1rem;
+}
+
+.info-text.legenda {
+    font-weight: lighter;
+}
+
+.personal-logo {
+    height: 2.5rem;
+}
+
+.personal-logo.text {
+    color: white;
+    place-items: center;
 }
 
 
@@ -261,6 +290,10 @@ article {
 /* FOOTER */
 
 .material-icons.md-48 {
+    font-size: 48px;
+}
+
+.material-icons-outlined.md-48 {
     font-size: 48px;
 }
 
@@ -276,6 +309,7 @@ article {
     height: 46px;
     background-size: cover;
     background-image: url("img/logo/ball-cyan.svg");
+    text-decoration: none;
     filter: invert(49%) sepia(26%) saturate(1091%) hue-rotate(145deg) brightness(94%) contrast(87%);
 }
 
