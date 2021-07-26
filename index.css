@@ -299,8 +299,14 @@ article {
 
 .footer-capitolo-logo {
     padding: 0px !important;
-    color: var(--cel);
+    /* color: var(--cel); */
+    color: #853f63;
     text-decoration: none
+}
+
+.footer-hall-logo {
+    @extend .footer-capitolo-logo;
+    color: #523f14;
 }
 
 .footer-campionato-logo {
@@ -310,7 +316,7 @@ article {
     background-size: cover;
     background-image: url("img/logo/ball-cyan.svg");
     text-decoration: none;
-    filter: invert(49%) sepia(26%) saturate(1091%) hue-rotate(145deg) brightness(94%) contrast(87%);
+    filter: invert(30%) sepia(45%) saturate(679%) hue-rotate(277deg) brightness(89%) contrast(88%);
 }
 
 .footer-squadre-logo {
@@ -319,22 +325,23 @@ article {
     height: 46px;
     background-size: cover;
     background-image: url("img/teams/teams-shirt.png");
-    filter: invert(49%) sepia(26%) saturate(1091%) hue-rotate(145deg) brightness(94%) contrast(87%);
-}
-
-div>a.hall.focus>i {
-    color: var(--oro);
-    fill: var(--oro)
+    filter: invert(30%) sepia(45%) saturate(679%) hue-rotate(277deg) brightness(89%) contrast(88%);
 }
 
 div>a.focus>i {
     color: var(--ros);
-    fill: var(--ros)
 }
 
-div>a.focus>span {
-    color: var(--ros);
-    fill: var(--ros)
+div>a.hall.focus>i {
+    color: var(--oro);
+}
+
+#menu-campionato.focus {
+    filter: invert(58%) sepia(81%) saturate(1001%) hue-rotate(292deg) brightness(92%) contrast(88%);
+}
+
+#menu-shirt.focus {
+    filter: invert(58%) sepia(81%) saturate(1001%) hue-rotate(292deg) brightness(92%) contrast(88%);
 }
 
 
