@@ -15,20 +15,11 @@
     <link rel="stylesheet" href="index.css">
     <script type="text/javascript" src="index.js"></script>
 
-    <!-- <script>
-        $(function() {
-            $("#includeCampionato").load("pages/campionato.html");
-        });
-        $(function() {
-            $("#includeCoppa").load("pages/coppa.html");
-        });
-        $(function() {
-            $("#includeMercati").load("pages/mercati.html");
-        });
-        $(function() {
-            $("#includeAlbo").load("pages/albo.html");
-        });
-    </script> -->
+    <!-- WEBAPP -->
+    <link rel="manifest" href="manifest.json" crossorigin="use-credentials">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/logo/ball_colored.png">
+    <meta name="theme-color" content="#ffffff">
 
     <title>Lega FantaPerla</title>
 
@@ -105,6 +96,18 @@
             </div>
         </div>
     </footer>
+
+    <script type="text/javascript">
+        if ('serviceWorker' in navigator) {
+            console.log("Will the service worker register?");
+            navigator.serviceWorker.register('sw.js')
+                .then(function(reg) {
+                    console.log("Yes, it did.");
+                }).catch(function(err) {
+                    console.log("No it didn't. This happened:", err)
+                });
+        }
+    </script>
 </body>
 
 

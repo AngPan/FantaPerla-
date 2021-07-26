@@ -1,0 +1,23 @@
+{
+    "name": "FantaPerla",
+    "short_name": "FantaPerla",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#2f90a9",
+    "description": "L'app ufficiale del FantaPerla",
+    "theme_color": "#2f90a9",
+    "icons": [{
+            "src": "./img/logo/maskable_icon.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "./img/logo/maskable_icon.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "prefer_related_applications": false
+}
